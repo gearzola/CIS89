@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cis89links1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+<!-- this is a comment: I added id="top" to make this this h1 and internal link target. The link that comes here is at the bottom of the page. I used <div> to make three columns for: "Tips, projects, contact me," which are all internal links. The first section "Tips and Interesting Links," are all external links. The Kids encyclopedia facts link opens in a new tab - This is where I used target="_blank." HREF=URL means an external link AND HREF=#id is an internal link-->
+
+    <h1 id="Top">My CIS 89 Links <br>Project</h1>
+
+    <div class ="row">
+
+      <div class = "column">
+        <a href="#Tip"><h2> Tips </h2></a>
+      </div>
+      <div class = "column">
+        <a href="#Projects"><h2> Projects </h2></a>
+      </div>
+      <div class = "column">
+        <a href="#Contact"><h2> Contact Me </h2></a>
+      </div>
+
+    </div>
+
+    <h2 id="Tip">Tips and Interesting Links </h2>
+    <ul style="list-style-type:circle">
+
+      <li>
+        <a href="https://teachthought.com/the-future-of-learning/11-tips-for-students-tomanage-their-digital-footprints/">
+          11 Tips For Students To Manage Their Digital Footprints
+        </a>
+      </li>
+
+      <li>
+        <a href="https://hbr.org/2018/05/the-right-way-to-respond-to-negative-feedback/">
+          The Right Way to Respond to Negative Feedback
+        </a>
+      </li>
+
+      <li>
+        <a href="https://webdesign.tutsplus.com/articles/accessibility-basics-designing-for-visual-impairment--cms-27634">
+          Accessibility Basics: Designing for Visual Impairment
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.nngroup.com/articles/plain-language-experts/">
+          Plain Language Is for Everyone, Even Experts
+        </a>
+      </li>
+
+      <li>
+        <a href="https://kids.kiddle.co/" target="_blank">
+          Kids encyclopedia facts
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.wired.com/story/darpa-total-informatio-awareness/">
+          How the Tech Giants Created What Darpa Couldn’t
+        </a>
+      </li>
+
+      <li>
+        <a href="https://mic.com/articles/189673/target-and-walmart-stop-selling-the-superhackable-kids-toy-cloudpets-after-pressure-from-mozilla">
+          Target and Walmart stop selling the superhackable kids’ toy CloudPets after pressure from Mozilla
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.wired.com/2014/07/hacking-home-alarms/">
+          How Thieves Can Hack and Disable Your Home Alarm System
+        </a>
+      </li>
+
+      <li>
+        <a href="http://theconversation.com/no-black-scientist-has-ever-won-a-nobel-thats-bad-for-science-and-bad-for-society-104456">
+          No black scientist has ever won a Nobel Prize — that’s bad for science and society
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.pinterest.com/pin/112730796903797418">
+          Pinterest
+        </a>
+      </li>
+
+    </ul>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!-- this is a comment: I added div class called tooltip to give a particular hover text to these links. The hover text is specified by title. The working tooltip can be seen in CSS-->
+    <h2 id="Projects">My Web Development Projects</h2>
+
+    <div class="tooltip">
+      <ul style="list-style-type:circle">
+        <li>
+          <a href="https://thimbleprojects.org/garzola/550256/" title="About my summer">
+            My Six-Word Summer
+          </a>
+        </li>
+        <li>
+          <a href="https://thimbleprojects.org/garzola/555042/" title="A simple webpage">
+            My First Webpage
+          </a>
+        </li>
+        <li>
+          <a href="https://thimbleprojects.org/garzola/565511/" title="My text project">
+            My CIS 89 Text Project 1
+          </a>
+        </li>
+      </ul>
+    </div>
+<!-- Mailto attribute is used to specify the email address that you want to contact. When the link is clicked a new email message opens AND the subject line is added automatically. Because I added subject=.  -->
+    <a href="mailto:gabby_fake_email@gmail.com?subject=Hello_Gabby!" id="Contact">
+      <h3>Contact me via email</h3>
+    </a>
+<!--This is a link to the top of the page. id="#Top" allows this -->
+    <a href="#Top">
+      <h5>Go to top</h5>
+    </a>
+
+  </body>
+</html>

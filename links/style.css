@@ -1,0 +1,71 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Wire+One');
+
+@import url('https://fonts.googleapis.com/css?family=Codystar:300');
+
+body {
+  background-color: #292c2f;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px 30px;
+  font-size: 20px;
+  margin: 3;
+  color: #444;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Codystar', cursive;
+  font-size: 70px;
+  text-shadow: 1px 8px 20px #efd7a1;
+  color: #eedea3;
+
+}
+h2 {
+  color: #7d3434;
+  font-family: 'Wire One', sans-serif; letter-spacing: 10px;
+  font-size: 40px;
+
+}
+
+/* I used div column and row class to put 3 links on the same line */
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* I have put different colors to a:link, a:visited, and a:hover*/
+a:link {
+  color: #35a797;
+}
+
+a:visited {
+  color:#756d5d;
+}
+
+a:hover {
+  color: #2bceb5;
+}
+
+/* I used https://chrisbracco.com/a-simple-css-tooltip/ to help me create text on hover*/
+
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
